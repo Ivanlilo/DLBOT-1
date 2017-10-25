@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(token='EmjPsKCmp47oy6cH9J64.T0FBeOXffror6l71ARUGfa.JKpOONBszvI24dfZqhTravJ+trOslNRTQQrAxmNHtNA=')
+cl.login(token='Em2PGoMbLdkiILJyfQp4.T0FBeOXffror6l71ARUGfa.VJbY3dKIHFBDuTF0Cd2rFKCfBPwpJjJOdLeTi9kwXU4=')
 cl.loginResult()
 
 kk = LINETCR.LINE()
@@ -203,7 +203,7 @@ def bot(op):
         if op.type == 15:
             if op.param2 in Bots:
                 return
-            kk.sendText(op.param1, "Ciee Yang Gabetah")
+            kk.sendText(op.param1, "Ciee Kakak Gabetah")
             print "Anggota Keluar"
 
         #------Open QR Kick start------#
